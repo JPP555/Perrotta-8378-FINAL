@@ -8,6 +8,7 @@ TagManager:
   - Feet
   - player
   - Enemy
+  - Vault Door
   layers:
   - Default
   - TransparentFX
