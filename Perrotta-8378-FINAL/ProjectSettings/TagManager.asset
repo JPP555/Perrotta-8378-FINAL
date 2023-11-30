@@ -6,14 +6,15 @@ TagManager:
   tags:
   - Door
   - Feet
+  - player
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Door
   - Water
   - UI
-  - 
+  - Terrain
   - 
   - 
   - 
