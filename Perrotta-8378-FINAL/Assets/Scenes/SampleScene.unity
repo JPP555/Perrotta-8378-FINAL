@@ -3679,8 +3679,8 @@ Transform:
   m_GameObject: {fileID: 256430409}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9990947, z: -0, w: 0.042542107}
-  m_LocalPosition: {x: 0.16599998, y: 0.14499998, z: 4.3669996}
-  m_LocalScale: {x: 0.12000018, y: 0.14, z: -0.1300002}
+  m_LocalPosition: {x: 0.36, y: 0.98, z: -0.16}
+  m_LocalScale: {x: 0.13, y: 0.14, z: -0.1300002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
@@ -3766,7 +3766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"moveSpeed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"gravity","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"rotateSpeed","value":{"$content":90.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Feet","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -3799,7 +3799,7 @@ CharacterController:
   m_Height: 2
   m_Radius: 0.500004
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.13
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -12235,11 +12235,11 @@ Transform:
   m_GameObject: {fileID: 907765896}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.44721, y: 0.53846, z: 2.887127}
-  m_LocalScale: {x: 1.1173, y: 1, z: 1.1832}
+  m_LocalPosition: {x: -0.58527714, y: 1.0120744, z: -0.10087299}
+  m_LocalScale: {x: 1.3658377, y: 1, z: 3.0974636}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 908254758}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &908254752
 GameObject:
@@ -12809,10 +12809,11 @@ Transform:
   m_GameObject: {fileID: 908254752}
   serializedVersion: 2
   m_LocalRotation: {x: 1.1102232e-17, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.67078, y: -0.115, z: 2.988}
-  m_LocalScale: {x: 0.38199, y: 0.5777476, z: 1}
+  m_LocalPosition: {x: 0.67078, y: -0.42456, z: 2.988}
+  m_LocalScale: {x: 0.38199, y: 1.0041169, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 907765902}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &930192230
@@ -27322,7 +27323,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: bdfa1b7c2d824df4ea93cacf905b42a8, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &1609124761
 GameObject:
@@ -41636,8 +41637,8 @@ Transform:
   m_GameObject: {fileID: 2138271890}
   serializedVersion: 2
   m_LocalRotation: {x: 1.1102232e-17, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.806, y: 0.552, z: -1.9805}
-  m_LocalScale: {x: 0.50194, y: 1.6406192, z: -0.13108}
+  m_LocalPosition: {x: 1.9923, y: 0.52208, z: -1.9805}
+  m_LocalScale: {x: 0.84988755, y: 1.7, z: -0.13108}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -41663,7 +41664,6 @@ SceneRoots:
   - {fileID: 1708704226}
   - {fileID: 2035759636}
   - {fileID: 1401124062}
-  - {fileID: 907765902}
   - {fileID: 1417838818}
   - {fileID: 1857300142}
   - {fileID: 1896468869}
@@ -41671,6 +41671,9 @@ SceneRoots:
   - {fileID: 38447284}
   - {fileID: 425166278}
   - {fileID: 1580671300}
+  - {fileID: 304220482}
+  - {fileID: 842550446}
+  - {fileID: 1556138540}
   - {fileID: 1668961597}
   - {fileID: 1894826138}
   - {fileID: 2138271896}
@@ -41684,14 +41687,11 @@ SceneRoots:
   - {fileID: 1609124765}
   - {fileID: 1878408007}
   - {fileID: 148956911}
-  - {fileID: 304220482}
   - {fileID: 2037959381}
   - {fileID: 141793369}
   - {fileID: 2027865838}
   - {fileID: 722994499}
   - {fileID: 1760764215}
-  - {fileID: 842550446}
-  - {fileID: 1556138540}
   - {fileID: 1083501503}
   - {fileID: 1536188180}
   - {fileID: 1270476328}
