@@ -9,6 +9,7 @@ TagManager:
   - player
   - Enemy
   - Vault Door
+  - Distraction
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Terrain
   - Enemy
   - Vault Door
-  - 
+  - Distraction
   - 
   - 
   - 
