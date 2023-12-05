@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Vault Door
   - Distraction
+  - Vault Button
   layers:
   - Default
   - TransparentFX

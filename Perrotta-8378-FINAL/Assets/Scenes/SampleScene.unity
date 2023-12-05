@@ -3804,7 +3804,7 @@ Transform:
   m_GameObject: {fileID: 256430409}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9990947, z: -0, w: 0.042542107}
-  m_LocalPosition: {x: 0.16, y: -0.595, z: -6.9}
+  m_LocalPosition: {x: 9.4, y: 1.579, z: -10.62}
   m_LocalScale: {x: 0.69798934, y: 0.5305289, z: -0.42004368}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3901,11 +3901,14 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Door","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Vault
       Door","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Vault
+      Button","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 701832695}
     - {fileID: 907765896}
     - {fileID: 2133231099}
+    - {fileID: 1974900537}
 --- !u!143 &256430416
 CharacterController:
   m_ObjectHideFlags: 0
@@ -43416,7 +43419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 68d4603e8ead31447934f854c19c77db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -44837,7 +44840,7 @@ GameObject:
   - component: {fileID: 1974900538}
   m_Layer: 8
   m_Name: Vault button
-  m_TagString: Vault Door
+  m_TagString: Vault Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
